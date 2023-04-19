@@ -6,7 +6,7 @@
     "pre-commit"
   ],
   "shell": {
-    "init_hook": null,
+    "init_hook": "pre-commit install",
     "scripts": {
       "build": "hugo",
       "dev": "hugo server --buildDrafts",

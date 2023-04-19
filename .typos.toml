@@ -1,0 +1,8 @@
+[default]
+locale = "en-us"
+check-filename = true
+check-file = true
+binary = false
+
+[default.extend-words]
+Hepler = "Hepler"
