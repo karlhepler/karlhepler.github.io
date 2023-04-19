@@ -1,0 +1,2 @@
+pixyll https://github.com/azmelanar/hugo-theme-pixyll master
+black-and-light https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git master
