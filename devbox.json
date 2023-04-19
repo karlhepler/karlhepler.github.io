@@ -10,9 +10,8 @@
       "theme.add": ".devbox/scripts/theme.sh add",
       "theme.update": ".devbox/scripts/theme.sh update",
       "theme.remove": ".devbox/scripts/theme.sh remove",
-      "blog.new": "hugo new posts/$1.md",
-      "blog.dev": "hugo server --buildDrafts",
-      "blog.build": "hugo"
+      "dev": "hugo server --buildDrafts",
+      "build": "hugo"
     }
   },
   "nixpkgs": {
