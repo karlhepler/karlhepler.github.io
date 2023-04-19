@@ -36,14 +36,19 @@ pygmentsUseClasses = true
       unsafe = true
       xhtml = false
 
-# [menu]
-#   [[menu.main]]
-#     identifier = 'home'
-#     name = 'Home'
-#     url = '/'
-#     weight = 1
-#   [[menu.main]]
-#     name = "Posts"
-#     identifier = "posts"
-#     weight = 300
-#     url = "/posts/"
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = "LinkedIn"
+    identifier = "linkedin"
+    weight = 300
+    url = "https://www.linkedin.com/in/karlhepler"
+  [[menu.main]]
+    name = "GitHub"
+    identifier = "github"
+    weight = 300
+    url = "https://github.com/karlhepler"
