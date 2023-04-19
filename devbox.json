@@ -7,9 +7,7 @@
   "shell": {
     "init_hook": null,
     "scripts": {
-      "theme.add": ".devbox/scripts/theme.sh add",
-      "theme.update": ".devbox/scripts/theme.sh update",
-      "theme.remove": ".devbox/scripts/theme.sh remove",
+      "theme": "themes/crud.sh $1",
       "dev": "hugo server --buildDrafts",
       "build": "hugo"
     }
