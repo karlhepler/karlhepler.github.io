@@ -2,14 +2,16 @@
   "packages": [
     "go",
     "hugo",
-    "git"
+    "git",
+    "pre-commit"
   ],
   "shell": {
     "init_hook": null,
     "scripts": {
-      "theme": "themes/manage.sh $1",
+      "build": "hugo",
       "dev": "hugo server --buildDrafts",
-      "build": "hugo"
+      "preview": "hugo server",
+      "theme": "themes/manage.sh $1"
     }
   },
   "nixpkgs": {

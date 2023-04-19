@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT and Some Bees"
 date: 2023-04-19T09:50:57-04:00
-draft: false
 ---
 
 # Hypothetical
