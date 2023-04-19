@@ -7,7 +7,7 @@
   "shell": {
     "init_hook": null,
     "scripts": {
-      "theme": "themes/crud.sh $1",
+      "theme": "themes/manage.sh $1",
       "dev": "hugo server --buildDrafts",
       "build": "hugo"
     }
