@@ -3,13 +3,14 @@ title: "ChatGPT and Some Bees"
 date: 2023-04-19T09:50:57-04:00
 ---
 
-# Hypothetical
+## Hypothetical
 
-ChatGPT is an author with a bee problem who only asks questions and randomly yells while writing.
+ChatGPT is an author with a bee problem who only asks questions and randomly
+yells while writing.
 
 How would it write a nonsensical [hero's journey](https://en.wikipedia.org/wiki/Hero%27s_journey)?
 
-# Haycorn
+## Haycorn
 
 Have you ever heard of a minuscule, tap-dancing, iridescent speck of glitter
 named Twinkletoes with the whimsical mission of finding the Snort-inducing
