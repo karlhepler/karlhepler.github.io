@@ -5,7 +5,12 @@
     "git"
   ],
   "shell": {
-    "init_hook": null
+    "init_hook": null,
+    "scripts": {
+      "theme.add": ".devbox/scripts/theme.sh add",
+      "theme.update": ".devbox/scripts/theme.sh update",
+      "theme.remove": ".devbox/scripts/theme.sh remove"
+    }
   },
   "nixpkgs": {
     "commit": "f80ac848e3d6f0c12c52758c0f25c10c97ca3b62"
