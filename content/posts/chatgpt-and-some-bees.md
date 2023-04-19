@@ -1,6 +1,7 @@
 ---
 title: "ChatGPT and Some Bees"
 date: 2023-04-19T09:50:57-04:00
+description: ChatGPT is an author with a bee problem who only asks questions and randomly yells while writing.
 ---
 
 ## Hypothetical
