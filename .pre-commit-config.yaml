@@ -3,3 +3,6 @@ repos:
     rev: v1.14.8
     hooks:
       - id: typos
+        # Quick fix for known issue.
+        # https://github.com/crate-ci/typos/issues/347#issuecomment-1059926087
+        exclude: themes
