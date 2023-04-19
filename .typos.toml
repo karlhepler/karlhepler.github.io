@@ -6,3 +6,6 @@ binary = false
 
 [default.extend-words]
 Hepler = "Hepler"
+
+[files]
+extend-exclude = ["themes"]
