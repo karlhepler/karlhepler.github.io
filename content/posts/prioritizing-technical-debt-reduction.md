@@ -70,5 +70,7 @@ Why, then, do I often hear software engineers say things like...
 Ward Cunningham says that "an excellent time to refactor code is right
 **before** you extend it" [^fn2].
 
+`https://drops.dagstuhl.de/opus/volltexte/2016/6693/pdf/dagrep_v006_i004_p110_s16162.pdf`
+
 [^fn1]: Fowler, M. (2019, May 21) Technical Debt. Martin Fowler. https://martinfowler.com/bliki/TechnicalDebt.html
 [^fn2]: C2 Wiki. (n.d.). Technical Debt. https://wiki.c2.com/?TechnicalDebt
