@@ -1,9 +1,10 @@
 {
   "packages": [
+    "git",
     "go",
     "hugo",
-    "git",
-    "pre-commit"
+    "pre-commit",
+    "python3"
   ],
   "shell": {
     "init_hook": "pre-commit install",
@@ -11,7 +12,8 @@
       "build": "hugo",
       "dev": "hugo server --buildDrafts",
       "preview": "hugo server",
-      "theme": "themes/manage.sh $1"
+      "theme": "scripts/theme.sh $1",
+      "todate": "scripts/todate.py $1"
     }
   },
   "nixpkgs": {

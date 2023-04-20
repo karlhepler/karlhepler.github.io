@@ -42,3 +42,9 @@ devbox run theme remove
 ```shell
 hugo new posts/name-of-post.md
 ```
+
+## Change the date of a blog post to today's date
+
+```shell
+devbox run todate content/posts/<filename>.md
+```

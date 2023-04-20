@@ -1,6 +1,6 @@
 ---
 title: "Prioritizing Technical Debt"
-date: 2023-04-19T13:42:48-04:00
+date: 2023-04-20T10:44:30-05:00
 description: How can software engineering teams justify paying down technical debt when they simply don’t have the capacity to do so?
 draft: true
 ---
