@@ -1,5 +1,5 @@
 ---
-title: "Prioritizing Technical Debt Reduction"
+title: "Prioritizing Technical Debt"
 date: 2023-04-20T11:01:39-04:00
 description: How can software engineering teams justify paying down technical debt when they simply don’t have the capacity to do so?
 draft: true
@@ -8,9 +8,9 @@ draft: true
 ## Hypothetical
 
 Software engineering teams are not able to take advantage of the _typical_
-approach to prioritizing technical debt reduction, in which a predetermined
-percentage of their overall capacity is "taken off the top" and reserved for
-non-functional work.
+approach to prioritizing the reduction of technical debt, in which a
+predetermined percentage of their overall capacity is "taken off the top" and
+reserved for non-functional work.
 
 In other words, 100% of each team's budgeted capacity for upcoming work has
 been allocated for feature development with no room for anything else. In
