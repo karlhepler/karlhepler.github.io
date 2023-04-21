@@ -4,6 +4,14 @@ date: 2023-04-19T09:50:57-04:00
 description: ChatGPT is an author with a bee problem who only asks questions and randomly yells while writing.
 ---
 
+> Howdy! I just want to let you know that this post is essentially my blog's
+> ["hello world"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program).
+> I'm just testing out the format and the blog system I'm using, so it's not
+> exactly representative of what you should expect from the rest of the
+> content... but I thought it was pretty funny. If you want to check out the
+> code for this site, you can find it in
+> [GitHub](https://github.com/karlhepler/karlhepler.github.io).
+
 ## Hypothetical
 
 ChatGPT is an author with a bee problem who only asks questions and randomly
