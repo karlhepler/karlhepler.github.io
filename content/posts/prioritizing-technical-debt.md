@@ -35,9 +35,9 @@ Software Engineering" [^fn2], and the "Technical Debt" article in the C2 wiki
 [^fn3].
 
 However, among the vast sea of articles, one article _really_ caught my
-attention. That is to say that one sentence _really really_ caught my
-attention. That is to say that <mark>two words</mark> _really really really_
-caught my attention.
+attention. That is to say that one sentence of one article _really really_
+caught my attention. That is to say that <mark>two words</mark> of one sentence
+of one article _really really really_ caught my attention.
 
 > Organizations that don’t pay down technical debt can find themselves so
 > burdened with <mark>daily workarounds</mark> for problems left unfixed that
@@ -45,8 +45,27 @@ caught my attention.
 
 ### Daily Workarounds
 
-Daily workarounds are symptoms of technical debt.
-The time it takes to work around problems left unfixed is measurable.
+If daily workarounds are symptoms of technical debt and the act of eliminating
+daily workarounds pays down technical debt, then prioritization is just a
+matter of cost/benefit analysis. Instead of looking at technical debt
+holistically, look at how it directly affects the timelines of upcoming
+projects across the organization. If the time invested in eliminating specific
+workarounds produces an outcome that speeds up project deliveries in such a way
+that the net time lost is negative, then you would be foolish not to do it!
+
+![Technical Debt Workaround Savings](/images/tech-debt-workaround-savings.png)
+
+**In order for this to work, we need three key pieces of information:**
+
+- How long does it take to perform a specific workaround?
+- How many times do we expect to perform a specific workaround in upcoming projects?
+- How long will it take to eliminate a specific workaround?
+
+### How long does it take to perform a specific workaround?
+
+### How many times do we expect to perform a specific workaround in upcoming projects?
+
+### How long will it take to eliminate a specific workaround?
 
 [^fn1]: Fowler, M. (2019, May 21) Technical Debt. Martin Fowler. https://martinfowler.com/bliki/TechnicalDebt.html
 [^fn2]: Kazman, R., Ozkaya, I., & Seaman, C. (Eds.). (2016). Technical Debt in Software Engineering (Dagstuhl Seminar 16162) (Vol. 6, No. 4, pp. 110-157). Dagstuhl Reports. https://drops.dagstuhl.de/opus/volltexte/2016/6693/pdf/dagrep_v006_i004_p110_s16162.pdf
