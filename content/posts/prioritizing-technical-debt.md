@@ -1,8 +1,7 @@
 ---
 title: "Prioritizing Technical Debt"
-date: 2023-04-20T11:01:39-04:00
+date: 2023-05-04T10:53:34-04:00
 description: How can software engineering teams justify paying down technical debt when they simply don’t have the capacity to do so?
-draft: true
 ---
 
 ## Hypothetical
@@ -50,22 +49,127 @@ daily workarounds pays down technical debt, then prioritization is just a
 matter of cost/benefit analysis. Instead of looking at technical debt
 holistically, look at how it directly affects the timelines of upcoming
 projects across the organization. If the time invested in eliminating specific
-workarounds produces an outcome that speeds up project deliveries in such a way
-that the net time lost is negative, then you would be foolish not to do it!
+workarounds produces an outcome that speeds up project deliveries, then you
+would be foolish not to do it!
 
 ![Technical Debt Workaround Savings](/images/tech-debt-workaround-savings.png)
 
-**In order for this to work, we need three key pieces of information:**
+**In order for this to work, we need only need three pieces of information:**
 
-- How long does it take to perform a specific workaround?
-- How many times do we expect to perform a specific workaround in upcoming projects?
-- How long will it take to eliminate a specific workaround?
+1. [How long does it take to perform a specific workaround](#1-how-long-does-it-take-to-perform-a-specific-workaround)?
+2. [How many times do we expect to perform a specific workaround in upcoming projects](#2-how-many-times-do-we-expect-to-perform-a-specific-workaround-in-upcoming-projects)?
+3. [How long will it take to eliminate a specific workaround](#3-how-long-will-it-take-to-eliminate-a-specific-workaround)?
 
-### How long does it take to perform a specific workaround?
+Now hold on just a second! At first glance, it seems like collecting this
+information is nearly impossible. Or if not impossible, then it will surely
+take an unreasonable amount of time. In order to answer the first two
+questions, you need to know that you are performing a workaround and you need
+to take the time to record that somehow.
 
-### How many times do we expect to perform a specific workaround in upcoming projects?
+Yeah... but, as a developer, don't you know that already? After all, you
+already retroactively create tasks in the backlog labeled "technical debt",
+right? Doing that requires more effort than simply recording what kind of work
+you're doing. Those "technical debt" tasks are usually posed as _solutions_,
+which means you spent even more time coming up with _how_ to fix the situation.
+Talk about a waste of time!
 
-### How long will it take to eliminate a specific workaround?
+I only say it's a waste of time because tasks like that are rarely completed.
+They usually sit in the backlog until they are removed during a purge. That
+system does not work. It should... but it doesn't. So stop it. Try something
+different.
+
+### 1. How long does it take to perform a specific workaround?
+
+While you are working on a task, you notice that you starting performing a
+workaround. How do you know this? The same way you knew to create those
+"technical debt" tickets of the past. You just know that you're doing something
+the _wrong way_... whatever that means to you.
+
+Create and start a task for the workaround. Once the workaround
+is complete, then complete the task and continue working on your original
+task.
+
+You need some way to deliniate _workaround_ tasks from regular tasks. Many
+ticketing systems have labels. If yours doesn't, then you can use a naming
+convention. Do the simplest thing.
+
+In addition to identifying a task as a _workaround_, you also need to connect
+it to some specific technical debt. You need a centralized place to store a
+list of technical debts. If the workaround is new and you can't find an
+existing technical debt that it is related to, then create a new technical debt
+entry. If you don't know what the actual technical debt is yet, then just name
+it based on the workaround until you do it enough times that you have
+identified a pattern.
+
+Technical debt is usually related to some scoped domain in the system and
+should be linked to that in some way. This will help when estimating
+workarounds for upcoming projects.
+
+At a minimum, people across the organization should be kept informed of new
+additions to the centralized technical debt list. This can be done via weekly
+email or presentation. Whatever the method, it should be periodic so that folks
+aren't overwhelmed with notifications and ignore them.
+
+### 2. How many times do we expect to perform a specific workaround in upcoming projects?
+
+This requires some project planning. If you're not planning projects, then you
+might have some deeper concerns that need to be addressed before you can hope
+to tackle technical debt.
+
+For greenfield projects, you don't know anything yet, so you can't expect to do
+specific workarounds. These must be identified and cataloged as the project
+progresses.
+
+For brownfield projects, you are working in an existing system. You can either
+go by your and your team's knowledge of the domain to identify which
+workarounds you should expect to do, or you can also lean on the centralized
+technical debt list. Each item in the technical debt list should be related to
+some scoped domain in the system.
+
+Plan the tasks you expect to complete while doing your work to complete the
+project. Identify which of those will require workarounds. Count the number of
+times each workaround needs to be done, and multiply that by the length of time
+it takes to do it based on the metrics from past workaround tasks. Sum all of
+those times together. Now you know how much of your project time will be spent
+on workarounds.
+
+### 3. How long will it take to eliminate a specific workaround?
+
+This part requires some basic project planning. Using your centralized list of
+technical debt, find one with a lot of occurrences of workarounds completed,
+and work with a planning team to create a project to eliminate it. Scope it.
+Size it. Done.
+
+### OK... now what?
+
+In one hand, we have a centralized list of technical debt, we have records of
+completed workarounds and the amount of time taken for each, and we have a
+scoped and sized project plan for how to eliminate the technical debt.
+
+In the other hand, we have a list of upcoming projects for the organization.
+Each project has its own expected completion date and a list of workarounds
+expected to be encountered during its lifetime.
+
+If the amount of time it takes to pay off technical debt results in a shorter
+project timeline because of the elimination of workarounds, then pay off the
+technical debt during the project. Although it's easy to default to paying off
+the technical debt before starting the project, that will eat into delivery
+time. You need to pay off the debt at the last possible moment that it is
+beneficial to the project. Try to get some deliverables out. If you can do
+things in parallel, even better.
+
+If you notice that the cost/benefit makes sense when spread across multiple
+projects, but doesn't make sense when the focus is on a single project, then
+you should spread the work to pay off the technical debt accordingly.
+
+### Is that it?
+
+Yeah. This is Hypothetical Haycorns. This is where I think out loud. I might
+come up with terrible ideas. I might come up with good ideas. Parts of an idea
+might be good and parts of an idea might be bad. It doesn't matter to me. I
+think it's fun to think about this stuff.
+
+Anyway... until next time! Thanks for reading.
 
 [^fn1]: Fowler, M. (2019, May 21) Technical Debt. Martin Fowler. https://martinfowler.com/bliki/TechnicalDebt.html
 [^fn2]: Kazman, R., Ozkaya, I., & Seaman, C. (Eds.). (2016). Technical Debt in Software Engineering (Dagstuhl Seminar 16162) (Vol. 6, No. 4, pp. 110-157). Dagstuhl Reports. https://drops.dagstuhl.de/opus/volltexte/2016/6693/pdf/dagrep_v006_i004_p110_s16162.pdf
