@@ -1,6 +1,6 @@
 ---
 title: "Prioritizing Technical Debt"
-date: 2023-05-04T10:53:34-04:00
+date: 2023-05-04T15:54:28-04:00
 description: How can software engineering teams justify paying down technical debt when they simply don’t have the capacity to do so?
 ---
 
@@ -170,6 +170,29 @@ might be good and parts of an idea might be bad. It doesn't matter to me. I
 think it's fun to think about this stuff.
 
 Anyway... until next time! Thanks for reading.
+
+### One more thing
+
+Regardless of how the daily workarounds are recognized and recorded, I think
+just recognizing them as symptoms of technical debt could be a powerful thing.
+What is and isn't technical debt is often nebulous and a great area of
+contention among developers. You can prove this to yourself by searching for
+"technical debt" online.
+
+Treating and focusing on daily workarounds as symptoms of technical debt
+solidifies its definition with real world context that applies to your
+situation. It is real and measurable. The level of measurement is up to you,
+but the fact is that you actually spent time working around a problem.
+
+The time it takes to work around the problem is opportunity cost. If you end up
+doing the same workaround enough times, that cost increases. Eventually, the time
+to fix it saves more time than it takes.
+
+If you find that it _was_ a problem, but it won't be a problem again for the
+foreseeable future, then there is no reason to fix it. Fix things that are
+current and near-future problems. If it's not a current or near-future problem,
+then it's not a problem. If it was, then it would be! I'm going to stop before
+I turn into Yogi Berra.
 
 [^fn1]: Fowler, M. (2019, May 21) Technical Debt. Martin Fowler. https://martinfowler.com/bliki/TechnicalDebt.html
 [^fn2]: Kazman, R., Ozkaya, I., & Seaman, C. (Eds.). (2016). Technical Debt in Software Engineering (Dagstuhl Seminar 16162) (Vol. 6, No. 4, pp. 110-157). Dagstuhl Reports. https://drops.dagstuhl.de/opus/volltexte/2016/6693/pdf/dagrep_v006_i004_p110_s16162.pdf
